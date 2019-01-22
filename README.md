@@ -64,7 +64,7 @@ on the host: -
 docker container ls
 
 CONTAINER ID        IMAGE                                      COMMAND               CREATED             STATUS              PORTS                                                                                                                    NAMES
-a44ca8ded5b8        nishidayuya/docker-vagrant-ubuntu:xenial   "/usr/sbin/sshd -D"   About an hour ago   Up About an hour    0.0.0.0:4040->4040/tcp, 0.0.0.0:8080->8080/tcp, 0.0.0.0:8088->8088/tcp, 0.0.0.0:9083->9083/tcp, 127.0.0.1:2222->22/tcp   vagrant-hadoop-hive-spark_node1_1539427474
+a44ca8ded5b8        davarski/vagrant-docker-ubuntu:xenial   "/usr/sbin/sshd -D"   About an hour ago   Up About an hour    0.0.0.0:4040->4040/tcp, 0.0.0.0:8080->8080/tcp, 0.0.0.0:8088->8088/tcp, 0.0.0.0:9083->9083/tcp, 127.0.0.1:2222->22/tcp   vagrant-hadoop-hive-spark_node1_1539427474
 ```
 
 then
